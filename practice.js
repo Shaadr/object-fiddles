@@ -276,10 +276,6 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
     return obj;
   }
 
-// function makePerson(name, birthday, ssn) {
-//   return new Object(name, birthday, ssn);
-// }
-
 
 
 //NEXT PROBLEM
