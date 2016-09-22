@@ -103,9 +103,9 @@ console.log(backPack);
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
   //Code Here
-// for (var prop in alsoMe) {
-//   alert(alsoMe[prop]);
-// };
+for (var prop in alsoMe) {
+console.log(alsoMe[prop]);
+};
 
 
 
@@ -129,9 +129,9 @@ console.log(backPack);
 //Now, loop through your album object alerting every song title individually.
 
   // Code Here
-// for (prop in album) {
-//   alert (album[prop]);
-// }
+for (prop in album) {
+  console.log(prop);
+}
 
 
 
@@ -153,12 +153,12 @@ var states = {
 
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
-  //Code Here
-  // for (var prop in states) {
-  //   if(states[prop] > 4) {
-  //     alert(prop);
-  //   }
-  // }
+  // Code Here
+  for (var prop in states) {
+    if(states[prop] > 4) {
+      console.log(prop);
+    }
+  }
 
 
 
